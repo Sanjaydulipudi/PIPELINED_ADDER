@@ -1,26 +1,24 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
+// College       : Vasireddy Venkatadri Institute of Technology
+// Author        : Dulipudi Laashmith Sanjay
 // 
-// Create Date: 19.07.2025 12:03:09
-// Design Name: 
-// Module Name: tb_dff_8bit
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
+// Design Name   : Testbench for 8-bit D Flip-Flop
+// Module Name   : tb_dff_8bit
+// Project Name  : Pipelined 8-Input Adder Tree
+// Target Device : Artix-7 (xc7a35tftg256-1)
+// Tool Version  : Vivado 2025.1
+// Description   : 
+//   Testbench for the synchronous 8-bit DFF with asynchronous reset. 
+//   Verifies data storage and reset operation.
 // 
-// Dependencies: 
+// Dependencies  : dff_8bit
 // 
 // Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
+//   0.01 - File Created
+//
 //////////////////////////////////////////////////////////////////////////////////
 
-
-`timescale 1ns/1ps
 module tb_dff_8bit;
     reg clk, rst;
     reg [7:0] d;
