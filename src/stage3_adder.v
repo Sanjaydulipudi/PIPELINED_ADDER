@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // College       : Vasireddy Venkatadri Institute of Technology
-// Author        : DULIPUDI LAASSHMITH SANJAY
+// Author        : DULIPUDI LAASHMITH SANJAY
 // 
 // Design Name   : Pipeline Stage 3 (Final Adder)
 // Module Name   : stage3_adder
