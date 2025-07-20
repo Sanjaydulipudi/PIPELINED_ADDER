@@ -1,4 +1,25 @@
-`timescale 1ns/1ps
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// College       : Vasireddy Venkatadri Institute of Technology
+// Author        : Dulipudi Laashmith Sanjay
+// 
+// Design Name   : Testbench for Full Pipelined 8-Input Adder Tree
+// Module Name   : tb_pipelined_adder
+// Project Name  : Pipelined 8-Input Adder Tree
+// Target Device : Artix-7 (xc7a35tftg256-1)
+// Tool Version  : Vivado 2025.1
+// Description   : 
+//   Final testbench for the full 3-stage pipelined 8-input adder tree. 
+//   Verifies correct pipelined operation with multiple test cases, 
+//   showcasing delay between stages and final results.
+// 
+// Dependencies  : pipelined_adder, stage1_adder, stage2_adder, stage3_adder,
+//                 adder_8bit, dff_8bit
+// 
+// Revision:
+//   0.01 - File Created
+//
+//////////////////////////////////////////////////////////////////////////////////
 
 module tb_pipelined_adder;
 
