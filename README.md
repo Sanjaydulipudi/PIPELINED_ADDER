@@ -1,8 +1,4 @@
-# Pipelined 8-Input Adder Tree
-
-# Author: Dulipudi Laashmith Sanjay  
-# College: Vasireddy Venkatadri Institute of Technology (VVIT)  
-# Tool Used: Xilinx Vivado 2025.1  
+Pipelined 8-Input Adder Tree
 
 ---
 
