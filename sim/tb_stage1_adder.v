@@ -1,22 +1,22 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
+// College       : Vasireddy Venkatadri Institute of Technology
+// Author        : Dulipudi Laashmith Sanjay
 // 
-// Create Date: 19.07.2025 12:05:42
-// Design Name: 
-// Module Name: tb_stage1_adder
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
+// Design Name   : Testbench for Stage 1 (Four 8-bit Adders)
+// Module Name   : tb_stage1_adder
+// Project Name  : Pipelined 8-Input Adder Tree
+// Target Device : Artix-7 (xc7a35tftg256-1)
+// Tool Version  : Vivado 2025.1
+// Description   : 
+//   Testbench for Stage 1 of the pipeline. Verifies 4 parallel additions 
+//   and proper pipeline register updates.
 // 
-// Dependencies: 
+// Dependencies  : stage1_adder
 // 
 // Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
+//   0.01 - File Created
+//
 //////////////////////////////////////////////////////////////////////////////////
 
 
