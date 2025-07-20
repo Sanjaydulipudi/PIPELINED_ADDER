@@ -1,4 +1,4 @@
-Pipelined 8-Input Adder Tree
+## Pipelined 8-Input Adder Tree
 
 ---
 
