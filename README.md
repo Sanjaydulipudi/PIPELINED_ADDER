@@ -1,8 +1,8 @@
 # Pipelined 8-Input Adder Tree
 
-## Author: Dulipudi Laashmith Sanjay  
-## College: Vasireddy Venkatadri Institute of Technology (VVIT)  
-## Tool Used: Xilinx Vivado 2025.1  
+# Author: Dulipudi Laashmith Sanjay  
+# College: Vasireddy Venkatadri Institute of Technology (VVIT)  
+# Tool Used: Xilinx Vivado 2025.1  
 
 ---
 
@@ -55,8 +55,6 @@ DFFs (pipeline registers) store intermediate results between stages, allowing ne
 
 ---
 
-
----
 
 ## Simulation Results
 
