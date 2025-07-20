@@ -1,3 +1,24 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// College       : Vasireddy Venkatadri Institute of Technology
+// Author        : DULIPUDI LAASSHMITH SANJAY
+// 
+// Design Name   : Pipeline Stage 3 (Final Adder)
+// Module Name   : stage3_adder
+// Project Name  : Pipelined 8-Input Adder Tree
+// Target Device : Artix-7 (xc7a35tftg256-1)
+// Tool Version  : Vivado 2025.1
+// Description   : 
+//   Final stage of the pipelined adder tree. Adds two registered 
+//   partial sums from Stage 2 and stores the final 8-bit sum.
+// 
+// Dependencies  : adder_8bit, dff_8bit
+// 
+// Revision:
+//   0.01 - File Created
+//
+//////////////////////////////////////////////////////////////////////////////////
+
 module stage3_adder (
     input        clk,
     input        rst,
